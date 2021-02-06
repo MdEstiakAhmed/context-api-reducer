@@ -1,0 +1,85 @@
+/* general style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general style */
+
+/* general class */
+
+.xFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.yFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.xPositionCenter {
+    justify-content: center;
+}
+
+.yPositionCenter {
+    align-items: center;
+}
+
+.positionEnd {
+    justify-content: flex-end;
+}
+
+.margin {
+    margin: 10px;
+}
+
+/* general class */
+
+/* navbar component styles */
+
+.navbarContainer {
+    background-color: midnightblue;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btnFont {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* navbar component styles */
+
+/* general component styles */
+
+.headerTitle {
+    font-size: 30px;
+}
+
+.subHeaderTitle {
+    font-size: 25px;
+}
+
+/* general component styles */
+
+/* user component styles */
+
+.dataLabel {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+/* user component styles */
